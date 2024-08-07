@@ -1,7 +1,7 @@
 # LFSR Cryptanalysis
 
 This Python project implements a cryptographic analysis using a Linear Feedback Shift Register (LFSR). The project includes functions to encode and decode text, perform XOR operations, generate keystreams using LFSR, and brute-force search for LFSR seeds to decrypt a given ciphertext.
-Given the LFSR with feedback polynomial \(x^{10} + x^9 + x^7 + x^6 + 1\) and the encrypted message `i!))iszwykqnf cyc!?secnncvch`, the goal is to find the original plaintext message. Feedback polynomial and encrypted message can be changed to your liking
+Given the LFSR with feedback polynomial $x^{10} + x^9 + x^7 + x^6 + 1$ and the encrypted message `i!))iszwykqnf cyc!?secnncvch`, the goal is to find the original plaintext message. Feedback polynomial and encrypted message can be changed to your liking
 
 ## Features
 - **Character to Bits Conversion**: Maps characters to their corresponding 5-bit binary representation.
